@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/agentra-org-hero.svg" alt="Agentra Labs hero" width="1200">
+  <img src="assets/agentra-org-hero.svg" alt="Agentra Labs hero" width="980">
 </p>
 
 <p align="center">
