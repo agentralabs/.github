@@ -1,65 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-label="Agentra Labs GitHub organization hero pane">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420" role="img" aria-label="Agentra Labs GitHub organization hero">
   <defs>
-    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#b8b6ae"/>
-    </pattern>
     <style><![CDATA[
       .mono { font-family:'JetBrains Mono','IBM Plex Mono',monospace; }
-      .ink { fill:#111111; }
-      .muted { fill:#5f5c53; }
-      .paper { fill:#f2f1ea; }
-      .accent { fill:#ea580c; }
-      .stroke { stroke:#111111; }
+      .sans { font-family:'Sora','Space Grotesk',Arial,sans-serif; }
     ]]></style>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="1 0 0 0 0.92 0 1 0 0 0.34 0 0 1 0 0.06 0 0 0 0.55 0"/>
+      <feBlend mode="screen" in2="SourceGraphic"/>
+    </filter>
   </defs>
 
-  <rect width="1400" height="360" class="paper"/>
-  <rect width="1400" height="360" fill="url(#grid)"/>
-  <rect x="20" y="20" width="1360" height="320" fill="none" class="stroke" stroke-width="2"/>
+  <rect width="1400" height="420" fill="#f2f1ea"/>
+  <rect x="24" y="24" width="1352" height="372" fill="none" stroke="#111111" stroke-width="2"/>
 
-  <line x1="20" y1="62" x2="1380" y2="62" class="stroke" stroke-width="2"/>
-  <text x="40" y="48" class="mono muted" font-size="14" letter-spacing="2"> // AGENTRA_LABS: ORG_HERO</text>
-  <rect x="1318" y="36" width="8" height="8" class="accent"/>
-  <text x="1336" y="48" class="mono muted" font-size="12" letter-spacing="2">001</text>
+  <line x1="24" y1="66" x2="1376" y2="66" stroke="#111111" stroke-width="2"/>
+  <text x="44" y="51" class="mono" fill="#5f5c53" font-size="14" letter-spacing="2">// PROFILE: AGENTRALABS</text>
+  <text x="1334" y="51" class="mono" fill="#5f5c53" font-size="12" letter-spacing="2">TICK:0201</text>
+  <rect x="1318" y="40" width="8" height="8" fill="#ea580c"/>
 
-  <rect x="46" y="92" width="232" height="232" fill="none" class="stroke" stroke-width="2"/>
-  <rect x="46" y="92" width="232" height="38" fill="#111111"/>
-  <text x="62" y="116" class="mono paper" font-size="11" letter-spacing="2">IDENTITY.CORE</text>
+  <line x1="480" y1="94" x2="480" y2="368" stroke="#111111" stroke-width="1.8"/>
 
-  <rect x="70" y="138" width="184" height="162" fill="#0f0f10" stroke="#111111" stroke-width="1.5"/>
-  <line x1="162" y1="168" x2="162" y2="268" stroke="#2e2b26" stroke-width="1.5"/>
-  <line x1="112" y1="218" x2="212" y2="218" stroke="#2e2b26" stroke-width="1.5"/>
-  <line x1="126" y1="182" x2="198" y2="254" stroke="#2e2b26" stroke-width="1.5"/>
-  <line x1="198" y1="182" x2="126" y2="254" stroke="#2e2b26" stroke-width="1.5"/>
-  <circle cx="162" cy="168" r="5" class="accent"/>
-  <circle cx="162" cy="268" r="5" class="accent"/>
-  <circle cx="112" cy="218" r="5" class="accent"/>
-  <circle cx="212" cy="218" r="5" class="accent"/>
+  <rect x="64" y="98" width="364" height="270" fill="#fffdf6" stroke="#111111" stroke-width="2"/>
+  <rect x="64" y="98" width="364" height="36" fill="#111111"/>
+  <text x="84" y="121" class="mono" fill="#f2f1ea" font-size="11" letter-spacing="2">RENDER: AGENTRA_LOGOMARK</text>
 
-  <text x="324" y="132" class="mono ink" font-size="52" font-weight="700" letter-spacing="1">AGENTRA LABS</text>
-  <text x="324" y="168" class="mono accent" font-size="18" font-weight="700" letter-spacing="2">BUILDING AI AGENTS FOR TRUSTED SYSTEMS</text>
-  <text x="324" y="208" class="mono muted" font-size="16">Risk intelligence, regulatory governance, and resilient infrastructure.</text>
-  <text x="324" y="232" class="mono muted" font-size="16">From persistent memory to web-scale vision and semantic code intelligence.</text>
+  <rect x="112" y="155" width="268" height="184" rx="14" fill="#111111"/>
+  <rect x="112" y="155" width="268" height="184" rx="14" fill="none" stroke="#ea580c" stroke-width="2" opacity="0.85"/>
 
-  <rect x="324" y="256" width="212" height="34" fill="#111111"/>
-  <text x="344" y="278" class="mono paper" font-size="12" letter-spacing="2">OPEN_SOURCE_LAB</text>
-  <rect x="548" y="256" width="152" height="34" fill="#111111"/>
-  <text x="568" y="278" class="mono paper" font-size="12" letter-spacing="2">MCP_Native</text>
-  <rect x="712" y="256" width="160" height="34" class="accent"/>
-  <text x="732" y="278" class="mono paper" font-size="12" letter-spacing="2">STANDALONE</text>
+  <g transform="translate(170 184) scale(7.6)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="0" y="0" width="24" height="24" rx="4" fill="#111111"/>
+    <path d="M12 20v2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M12 2v2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M17 20v2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M17 2v2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M2 12h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M2 17h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M2 7h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M20 12h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M20 17h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M20 7h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M7 20v2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M7 2v2" stroke="#ffffff" stroke-width="2"/>
+    <rect x="4" y="4" width="16" height="16" rx="2" stroke="#ffffff" stroke-width="2"/>
+    <rect x="8" y="8" width="8" height="8" rx="1" stroke="#ea580c" stroke-width="2" filter="url(#softGlow)"/>
+  </g>
 
-  <line x1="920" y1="96" x2="920" y2="306" class="stroke" stroke-width="1.5"/>
-  <text x="950" y="126" class="mono muted" font-size="12" letter-spacing="2">CORE_COMPONENTS</text>
+  <text x="84" y="354" class="mono" fill="#111111" font-size="14" letter-spacing="1.5">AGENTRA MARK • CANONICAL IDENTITY</text>
 
-  <rect x="950" y="146" width="380" height="42" fill="none" class="stroke" stroke-width="1.5"/>
-  <text x="970" y="172" class="mono ink" font-size="14" letter-spacing="1.2">AGENTICMEMORY</text>
-  <text x="1298" y="172" class="mono accent" font-size="13" text-anchor="end" letter-spacing="1.4">READY</text>
+  <text x="522" y="168" class="sans" fill="#101216" font-size="74" font-weight="700" letter-spacing="0.6">BUILDING AI AGENTS</text>
+  <text x="522" y="240" class="sans" fill="#101216" font-size="74" font-weight="700" letter-spacing="0.6">FOR <tspan fill="#ea580c">TRUSTED SYSTEMS</tspan></text>
 
-  <rect x="950" y="196" width="380" height="42" fill="none" class="stroke" stroke-width="1.5"/>
-  <text x="970" y="222" class="mono ink" font-size="14" letter-spacing="1.2">AGENTICVISION</text>
-  <text x="1298" y="222" class="mono accent" font-size="13" text-anchor="end" letter-spacing="1.4">READY</text>
+  <text x="522" y="287" class="mono" fill="#5f5c53" font-size="27">Risk intelligence, regulatory governance, and resilient infrastructure.</text>
+  <text x="522" y="323" class="mono" fill="#5f5c53" font-size="27">From persistent memory to web-scale vision and semantic code intelligence.</text>
 
-  <rect x="950" y="246" width="380" height="42" fill="none" class="stroke" stroke-width="1.5"/>
-  <text x="970" y="272" class="mono ink" font-size="14" letter-spacing="1.2">AGENTICCODEBASE</text>
-  <text x="1298" y="272" class="mono accent" font-size="13" text-anchor="end" letter-spacing="1.4">ACTIVE BUILD</text>
+  <line x1="522" y1="344" x2="1340" y2="344" stroke="#111111" stroke-width="1.5"/>
+  <text x="522" y="370" class="mono" fill="#111111" font-size="18" letter-spacing="1.6">AGENTICMEMORY</text>
+  <text x="798" y="370" class="mono" fill="#111111" font-size="18" letter-spacing="1.6">AGENTICVISION</text>
+  <text x="1052" y="370" class="mono" fill="#111111" font-size="18" letter-spacing="1.6">AGENTICCODEBASE</text>
 </svg>

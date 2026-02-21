@@ -1,30 +1,30 @@
-<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <pattern id="dots2" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.1" fill="#C9C5BD"/>
-    </pattern>
-  </defs>
-  <rect width="1600" height="500" fill="#EAE8E1"/>
-  <rect width="1600" height="500" fill="url(#dots2)"/>
-  <text x="60" y="56" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="20">// SECTION: CORE PILLARS</text>
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agentra Labs core pillars">
+  <rect width="1600" height="520" fill="#f2f1ea"/>
+  <rect x="56" y="64" width="1488" height="390" fill="none" stroke="#111111" stroke-width="2"/>
+  <line x1="56" y1="106" x2="1544" y2="106" stroke="#111111" stroke-width="1.8"/>
+  <text x="78" y="92" fill="#5f5c53" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="19" letter-spacing="2">// SECTION: CORE PILLARS</text>
 
-  <rect x="60" y="86" width="1480" height="350" stroke="#111" stroke-width="2"/>
+  <rect x="108" y="152" width="446" height="252" fill="#fffdf6" stroke="#111111" stroke-width="2"/>
+  <rect x="108" y="152" width="446" height="34" fill="#111111"/>
+  <text x="130" y="174" fill="#f2f1ea" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="11" letter-spacing="2">PROJECT: AGENTICMEMORY</text>
+  <text x="138" y="224" fill="#111111" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="48" font-weight="700">AgenticMemory</text>
+  <text x="138" y="266" fill="#5f5c53" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="24">Persistent graph memory.</text>
+  <text x="138" y="300" fill="#5f5c53" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="24">Portable .amem brain file.</text>
+  <text x="138" y="346" fill="#ea580c" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="24" font-weight="700">Status: Ready</text>
 
-  <rect x="120" y="150" width="420" height="220" fill="#F6F4EE" stroke="#111" stroke-width="2"/>
-  <text x="150" y="196" fill="#111" font-family="IBM Plex Mono, monospace" font-size="38" font-weight="700">AgenticMemory</text>
-  <text x="150" y="242" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">Persistent graph memory</text>
-  <text x="150" y="280" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">Portable .amem brain files</text>
-  <text x="150" y="318" fill="#F36A10" font-family="IBM Plex Mono, monospace" font-size="24">Status: Ready</text>
+  <rect x="576" y="152" width="446" height="252" fill="#fffdf6" stroke="#111111" stroke-width="2"/>
+  <rect x="576" y="152" width="446" height="34" fill="#111111"/>
+  <text x="598" y="174" fill="#f2f1ea" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="11" letter-spacing="2">PROJECT: AGENTICVISION</text>
+  <text x="606" y="224" fill="#111111" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="48" font-weight="700">AgenticVision</text>
+  <text x="606" y="266" fill="#5f5c53" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="24">Web cartography + action layer.</text>
+  <text x="606" y="300" fill="#5f5c53" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="24">Browserless runtime surface.</text>
+  <text x="606" y="346" fill="#ea580c" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="24" font-weight="700">Status: Ready</text>
 
-  <rect x="590" y="150" width="420" height="220" fill="#F6F4EE" stroke="#111" stroke-width="2"/>
-  <text x="620" y="196" fill="#111" font-family="IBM Plex Mono, monospace" font-size="38" font-weight="700">AgenticVision</text>
-  <text x="620" y="242" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">Web cartography + actions</text>
-  <text x="620" y="280" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">No-browser agent execution</text>
-  <text x="620" y="318" fill="#F36A10" font-family="IBM Plex Mono, monospace" font-size="24">Status: Ready</text>
-
-  <rect x="1060" y="150" width="420" height="220" fill="#F6F4EE" stroke="#111" stroke-width="2"/>
-  <text x="1090" y="196" fill="#111" font-family="IBM Plex Mono, monospace" font-size="38" font-weight="700">AgenticCodebase</text>
-  <text x="1090" y="242" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">Semantic code graph compiler</text>
-  <text x="1090" y="280" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">Impact + dependency intelligence</text>
-  <text x="1090" y="318" fill="#F36A10" font-family="IBM Plex Mono, monospace" font-size="24">Status: Active Build</text>
+  <rect x="1044" y="152" width="446" height="252" fill="#fffdf6" stroke="#111111" stroke-width="2"/>
+  <rect x="1044" y="152" width="446" height="34" fill="#111111"/>
+  <text x="1066" y="174" fill="#f2f1ea" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="11" letter-spacing="2">PROJECT: AGENTICCODEBASE</text>
+  <text x="1074" y="224" fill="#111111" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="48" font-weight="700">AgenticCodebase</text>
+  <text x="1074" y="266" fill="#5f5c53" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="24">Semantic code intelligence.</text>
+  <text x="1074" y="300" fill="#5f5c53" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="24">Impact + dependency graph.</text>
+  <text x="1074" y="346" fill="#ea580c" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="24" font-weight="700">Status: Active Build</text>
 </svg>
