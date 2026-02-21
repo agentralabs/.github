@@ -1,16 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-label="Agentra Labs GitHub hero pane">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-label="Agentra Labs organization hero pane">
   <defs>
-    <pattern id="orgGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1" fill="#b8b6ae"/>
     </pattern>
-    <filter id="logoGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.92 0 1 0 0 0.34 0 0 1 0 0.06 0 0 0 0.55 0"/>
-    </filter>
   </defs>
 
   <rect width="1400" height="360" fill="#f2f1ea"/>
-  <rect width="1400" height="360" fill="url(#orgGrid)"/>
+  <rect width="1400" height="360" fill="url(#grid)"/>
   <rect x="20" y="20" width="1360" height="320" fill="none" stroke="#111111" stroke-width="2"/>
 
   <line x1="20" y1="62" x2="1380" y2="62" stroke="#111111" stroke-width="2"/>
@@ -22,35 +18,34 @@
   <rect x="46" y="92" width="232" height="38" fill="#111111"/>
   <text x="62" y="116" font-family="'JetBrains Mono', monospace" font-size="11" fill="#f2f1ea" letter-spacing="2">ORG.IDENTITY_CORE</text>
 
-  <rect x="72" y="142" width="184" height="156" rx="10" fill="#111111" stroke="#ea580c" stroke-width="2"/>
-  <line x1="72" y1="142" x2="90" y2="142" stroke="#ea580c" stroke-width="3"/>
-  <line x1="238" y1="298" x2="256" y2="298" stroke="#ea580c" stroke-width="3"/>
+  <rect x="70" y="140" width="184" height="160" rx="10" fill="#0f1012" stroke="#ea580c" stroke-width="2"/>
 
-  <g transform="translate(111 160) scale(5.9)" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <rect x="0" y="0" width="24" height="24" rx="4" fill="#111111"/>
-    <path d="M12 20v2" stroke="#ffffff" stroke-width="2"/>
-    <path d="M12 2v2" stroke="#ffffff" stroke-width="2"/>
-    <path d="M17 20v2" stroke="#ffffff" stroke-width="2"/>
-    <path d="M17 2v2" stroke="#ffffff" stroke-width="2"/>
-    <path d="M2 12h2" stroke="#ffffff" stroke-width="2"/>
-    <path d="M2 17h2" stroke="#ffffff" stroke-width="2"/>
-    <path d="M2 7h2" stroke="#ffffff" stroke-width="2"/>
-    <path d="M20 12h2" stroke="#ffffff" stroke-width="2"/>
-    <path d="M20 17h2" stroke="#ffffff" stroke-width="2"/>
-    <path d="M20 7h2" stroke="#ffffff" stroke-width="2"/>
-    <path d="M7 20v2" stroke="#ffffff" stroke-width="2"/>
-    <path d="M7 2v2" stroke="#ffffff" stroke-width="2"/>
-    <rect x="4" y="4" width="16" height="16" rx="2" stroke="#ffffff" stroke-width="2"/>
-    <rect x="8" y="8" width="8" height="8" rx="1" stroke="#ea580c" stroke-width="2"/>
-  </g>
-  <rect x="156" y="204" width="52" height="52" rx="6" fill="none" stroke="#ea580c" stroke-width="1.4" filter="url(#logoGlow)"/>
+  <!-- Large centered org mark -->
+  <rect x="116" y="186" width="92" height="92" rx="14" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <rect x="142" y="212" width="40" height="40" rx="4" fill="none" stroke="#ea580c" stroke-width="6"/>
+
+  <line x1="162" y1="172" x2="162" y2="186" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <line x1="140" y1="172" x2="140" y2="186" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <line x1="184" y1="172" x2="184" y2="186" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+
+  <line x1="162" y1="278" x2="162" y2="292" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <line x1="140" y1="278" x2="140" y2="292" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <line x1="184" y1="278" x2="184" y2="292" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+
+  <line x1="102" y1="232" x2="116" y2="232" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <line x1="102" y1="210" x2="116" y2="210" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <line x1="102" y1="254" x2="116" y2="254" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+
+  <line x1="208" y1="232" x2="222" y2="232" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <line x1="208" y1="210" x2="222" y2="210" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <line x1="208" y1="254" x2="222" y2="254" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
 
   <text x="72" y="314" font-family="'JetBrains Mono', monospace" font-size="12" fill="#111111" letter-spacing="1.4">AGENTRA MARK • CANONICAL IDENTITY</text>
 
   <line x1="300" y1="92" x2="300" y2="324" stroke="#111111" stroke-width="2"/>
 
-  <text x="332" y="144" font-family="'JetBrains Mono', monospace" font-size="62" fill="#111111" font-weight="700">AGENTRA LABS</text>
-  <text x="332" y="180" font-family="'JetBrains Mono', monospace" font-size="18" fill="#ea580c" font-weight="700" letter-spacing="2">OPEN-SOURCE AGENT INFRASTRUCTURE</text>
+  <text x="332" y="142" font-family="'JetBrains Mono', monospace" font-size="62" fill="#111111" font-weight="700">AGENTRA LABS</text>
+  <text x="332" y="178" font-family="'JetBrains Mono', monospace" font-size="18" fill="#ea580c" font-weight="700" letter-spacing="2">OPEN-SOURCE AGENT INFRASTRUCTURE</text>
   <text x="332" y="212" font-family="'JetBrains Mono', monospace" font-size="16" fill="#5f5c53">BUILDING AI AGENTS FOR TRUSTED SYSTEMS.</text>
   <text x="332" y="236" font-family="'JetBrains Mono', monospace" font-size="16" fill="#5f5c53">PERSISTENT MEMORY, WEB-SCALE VISION, SEMANTIC CODE INTELLIGENCE.</text>
 
