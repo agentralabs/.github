@@ -1,0 +1,36 @@
+<svg width="1600" height="620" viewBox="0 0 1600 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#C9C5BD"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="620" fill="#EAE8E1"/>
+  <rect width="1600" height="620" fill="url(#dots)" opacity="0.7"/>
+
+  <rect x="68" y="70" width="1464" height="480" stroke="#121212" stroke-width="2"/>
+  <line x1="88" y1="104" x2="1510" y2="104" stroke="#121212"/>
+
+  <text x="92" y="94" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="20">// PROFILE: AGENTRALABS</text>
+  <text x="1450" y="94" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="20">TICK:0201</text>
+
+  <rect x="118" y="146" width="450" height="352" fill="#060708" stroke="#121212" stroke-width="1.5"/>
+  <line x1="343" y1="206" x2="343" y2="438" stroke="#202226"/>
+  <line x1="227" y1="322" x2="459" y2="322" stroke="#202226"/>
+  <line x1="261" y1="240" x2="425" y2="404" stroke="#202226"/>
+  <line x1="425" y1="240" x2="261" y2="404" stroke="#202226"/>
+
+  <circle cx="343" cy="206" r="7" fill="#F36A10"/>
+  <circle cx="343" cy="438" r="7" fill="#F36A10"/>
+  <circle cx="227" cy="322" r="7" fill="#F36A10"/>
+  <circle cx="459" cy="322" r="7" fill="#F36A10"/>
+
+  <text x="118" y="533" fill="#121212" font-family="IBM Plex Mono, monospace" font-size="36" font-weight="700">SIGNAL: MEMORY + VISION + CODEBASE</text>
+
+  <text x="655" y="260" fill="#0F1114" font-family="Bebas Neue, Arial" font-size="96" letter-spacing="1">BUILDING AGENT INFRASTRUCTURE</text>
+  <text x="655" y="345" fill="#F36A10" font-family="Bebas Neue, Arial" font-size="96" letter-spacing="1">FOR TRUSTED SYSTEMS</text>
+
+  <text x="655" y="405" fill="#57544E" font-family="IBM Plex Mono, monospace" font-size="36">Open-source lab for durable, interoperable agent systems.</text>
+  <text x="655" y="448" fill="#57544E" font-family="IBM Plex Mono, monospace" font-size="36">From persistent memory to web-scale vision and semantic code intelligence.</text>
+
+  <circle cx="1490" cy="506" r="6" fill="#F36A10"/>
+</svg>

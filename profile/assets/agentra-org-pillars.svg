@@ -1,0 +1,30 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots2" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#C9C5BD"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="500" fill="#EAE8E1"/>
+  <rect width="1600" height="500" fill="url(#dots2)"/>
+  <text x="60" y="56" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="20">// SECTION: CORE PILLARS</text>
+
+  <rect x="60" y="86" width="1480" height="350" stroke="#111" stroke-width="2"/>
+
+  <rect x="120" y="150" width="420" height="220" fill="#F6F4EE" stroke="#111" stroke-width="2"/>
+  <text x="150" y="196" fill="#111" font-family="IBM Plex Mono, monospace" font-size="38" font-weight="700">AgenticMemory</text>
+  <text x="150" y="242" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">Persistent graph memory</text>
+  <text x="150" y="280" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">Portable .amem brain files</text>
+  <text x="150" y="318" fill="#F36A10" font-family="IBM Plex Mono, monospace" font-size="24">Status: Ready</text>
+
+  <rect x="590" y="150" width="420" height="220" fill="#F6F4EE" stroke="#111" stroke-width="2"/>
+  <text x="620" y="196" fill="#111" font-family="IBM Plex Mono, monospace" font-size="38" font-weight="700">AgenticVision</text>
+  <text x="620" y="242" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">Web cartography + actions</text>
+  <text x="620" y="280" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">No-browser agent execution</text>
+  <text x="620" y="318" fill="#F36A10" font-family="IBM Plex Mono, monospace" font-size="24">Status: Ready</text>
+
+  <rect x="1060" y="150" width="420" height="220" fill="#F6F4EE" stroke="#111" stroke-width="2"/>
+  <text x="1090" y="196" fill="#111" font-family="IBM Plex Mono, monospace" font-size="38" font-weight="700">AgenticCodebase</text>
+  <text x="1090" y="242" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">Semantic code graph compiler</text>
+  <text x="1090" y="280" fill="#5D5A55" font-family="IBM Plex Mono, monospace" font-size="25">Impact + dependency intelligence</text>
+  <text x="1090" y="318" fill="#F36A10" font-family="IBM Plex Mono, monospace" font-size="24">Status: Active Build</text>
+</svg>
