@@ -3,7 +3,9 @@
 </p>
 
 <p align="center">
-  <strong>Open-source lab building durable agent systems for memory, vision, and semantic code intelligence.</strong>
+  <strong>BUILDING AI AGENTS FOR TRUSTED SYSTEMS</strong><br/>
+  Risk intelligence, regulatory governance, and resilient infrastructure.<br/>
+  From persistent memory to web-scale vision and semantic code intelligence.
 </p>
 
 <p align="center">
@@ -17,7 +19,8 @@
 
 ## Mission
 
-Agentra Labs builds infrastructure for agents that **remember context**, **understand the web as structured state**, and **reason over code as a semantic system**. We focus on practical systems that run locally, integrate through MCP, and remain portable across models and tools.
+Agentra Labs is an open-source lab building agent infrastructure that is durable, inspectable, and portable across tools.  
+We are building systems where agents can **remember**, **see**, and **understand** with continuity across sessions and environments.
 
 <p align="center">
   <img src="assets/agentra-org-pillars.svg" alt="Agentra Labs core pillars" width="1100">
@@ -25,10 +28,10 @@ Agentra Labs builds infrastructure for agents that **remember context**, **under
 
 ## Goals
 
-- Build canonical open tooling for persistent agent memory.
-- Turn web interactions into typed, queryable agent surfaces.
-- Compile codebases into semantic graphs for impact-aware automation.
-- Keep standalone usability first while enabling optional ecosystem integration.
+- Deliver persistent cognition through graph memory (`.amem`).
+- Deliver browserless web cartography and action surfaces (`.avis`).
+- Deliver semantic code intelligence and impact-aware automation (`.acb`).
+- Keep every sister standalone-first while enabling optional ecosystem integration.
 
 ## Ecosystem
 
@@ -37,7 +40,7 @@ Agentra Labs builds infrastructure for agents that **remember context**, **under
 </p>
 
 - **AgenticMemory**: persistent graph memory in portable `.amem` files.
-- **AgenticVision**: no-browser web cartography, action surfaces, and visual continuity.
+- **AgenticVision**: browserless web cartography, action surfaces, and visual continuity.
 - **AgenticCodebase**: semantic code intelligence in portable `.acb` files.
 
 ## Collaborate
