@@ -4,8 +4,7 @@
 
 <p align="center">
   <strong>BUILDING AI AGENTS FOR TRUSTED SYSTEMS</strong><br/>
-  Risk intelligence, regulatory governance, and resilient infrastructure.<br/>
-  From persistent memory to web-scale vision and semantic code intelligence.
+  Open-source lab for persistent memory, web-scale vision, and semantic code intelligence.
 </p>
 
 <p align="center">
@@ -19,8 +18,8 @@
 
 ## Mission
 
-Agentra Labs is an open-source lab building agent infrastructure that is durable, inspectable, and portable across tools.  
-We are building systems where agents can **remember**, **see**, and **understand** with continuity across sessions and environments.
+Agentra Labs builds durable, inspectable, and portable agent infrastructure.  
+We focus on systems where agents **remember**, **see**, and **understand** with continuity across sessions and environments.
 
 <p align="center">
   <img src="assets/agentra-org-pillars.svg" alt="Agentra Labs core pillars" width="980">
