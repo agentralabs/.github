@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/agentra-org-hero.svg" alt="Agentra Labs hero" width="980">
+  <img src="assets/github-hero-pane.svg" alt="Agentra Labs hero" width="980">
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ Agentra Labs is an open-source lab building agent infrastructure that is durable
 We are building systems where agents can **remember**, **see**, and **understand** with continuity across sessions and environments.
 
 <p align="center">
-  <img src="assets/agentra-org-pillars.svg" alt="Agentra Labs core pillars" width="1200">
+  <img src="assets/agentra-org-pillars.svg" alt="Agentra Labs core pillars" width="980">
 </p>
 
 ## Goals
@@ -36,7 +36,7 @@ We are building systems where agents can **remember**, **see**, and **understand
 ## Ecosystem
 
 <p align="center">
-  <img src="assets/agentra-org-ecosystem.svg" alt="Agentra Labs ecosystem map" width="1200">
+  <img src="assets/agentra-org-ecosystem.svg" alt="Agentra Labs ecosystem map" width="980">
 </p>
 
 - **AgenticMemory**: persistent graph memory in portable `.amem` files.
