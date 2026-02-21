@@ -22,15 +22,6 @@
   <rect x="1084" y="172" rx="24" ry="24" width="232" height="48" fill="#fffdf6" stroke="#111111" stroke-width="2"/>
   <text x="1190" y="203" font-family="'JetBrains Mono', monospace" font-size="29" fill="#111111">Build</text>
 
-  <rect x="618" y="92" width="164" height="164" fill="#d9d7cf" stroke="#111111" stroke-width="2"/>
-  <circle cx="700" cy="174" r="34" fill="#111111"/>
-  <line x1="700" y1="128" x2="700" y2="220" stroke="#ea580c" stroke-width="2"/>
-  <line x1="654" y1="174" x2="746" y2="174" stroke="#ea580c" stroke-width="2"/>
-  <circle cx="700" cy="126" r="4" fill="#ea580c"/>
-  <circle cx="748" cy="174" r="4" fill="#ea580c"/>
-  <circle cx="700" cy="222" r="4" fill="#ea580c"/>
-  <circle cx="652" cy="174" r="4" fill="#ea580c"/>
-
   <line x1="316" y1="134" x2="618" y2="164" stroke="#8b8780" stroke-width="2"/>
   <line x1="316" y1="196" x2="618" y2="184" stroke="#8b8780" stroke-width="2"/>
   <line x1="782" y1="164" x2="1084" y2="134" stroke="#8b8780" stroke-width="2"/>
@@ -41,5 +32,25 @@
   <circle cx="928" cy="149" r="4" fill="#ea580c"/>
   <circle cx="922" cy="190" r="4" fill="#ea580c"/>
 
-  <text x="548" y="268" font-family="'JetBrains Mono', monospace" font-size="14" fill="#5f5c53" letter-spacing="1.6">OPEN-SOURCE LAB • MEMORY + VISION + CODEBASE</text>
+  <rect x="618" y="92" width="164" height="164" fill="#d9d7cf" stroke="#111111" stroke-width="2"/>
+  <rect x="651" y="125" width="98" height="98" rx="12" fill="#111111" stroke="#ea580c" stroke-width="2"/>
+  <g transform="translate(667 141) scale(2.75)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="0" y="0" width="24" height="24" rx="4" fill="#111111"/>
+    <path d="M12 20v2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M12 2v2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M17 20v2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M17 2v2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M2 12h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M2 17h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M2 7h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M20 12h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M20 17h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M20 7h2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M7 20v2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M7 2v2" stroke="#ffffff" stroke-width="2"/>
+    <rect x="4" y="4" width="16" height="16" rx="2" stroke="#ffffff" stroke-width="2"/>
+    <rect x="8" y="8" width="8" height="8" rx="1" stroke="#ea580c" stroke-width="2"/>
+  </g>
+
+  <text x="534" y="268" font-family="'JetBrains Mono', monospace" font-size="14" fill="#5f5c53" letter-spacing="1.5">OPEN-SOURCE LAB • MEMORY + VISION + CODEBASE</text>
 </svg>

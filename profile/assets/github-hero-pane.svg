@@ -3,6 +3,10 @@
     <pattern id="orgGrid" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1" fill="#b8b6ae"/>
     </pattern>
+    <filter id="logoGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.92 0 1 0 0 0.34 0 0 1 0 0.06 0 0 0 0.55 0"/>
+    </filter>
   </defs>
 
   <rect width="1400" height="360" fill="#f2f1ea"/>
@@ -18,8 +22,11 @@
   <rect x="46" y="92" width="232" height="38" fill="#111111"/>
   <text x="62" y="116" font-family="'JetBrains Mono', monospace" font-size="11" fill="#f2f1ea" letter-spacing="2">ORG.IDENTITY_CORE</text>
 
-  <rect x="70" y="142" width="184" height="156" rx="10" fill="#111111" stroke="#ea580c" stroke-width="2"/>
-  <g transform="translate(118 166) scale(5.3)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <rect x="72" y="142" width="184" height="156" rx="10" fill="#111111" stroke="#ea580c" stroke-width="2"/>
+  <line x1="72" y1="142" x2="90" y2="142" stroke="#ea580c" stroke-width="3"/>
+  <line x1="238" y1="298" x2="256" y2="298" stroke="#ea580c" stroke-width="3"/>
+
+  <g transform="translate(111 160) scale(5.9)" stroke-linecap="round" stroke-linejoin="round" fill="none">
     <rect x="0" y="0" width="24" height="24" rx="4" fill="#111111"/>
     <path d="M12 20v2" stroke="#ffffff" stroke-width="2"/>
     <path d="M12 2v2" stroke="#ffffff" stroke-width="2"/>
@@ -36,6 +43,7 @@
     <rect x="4" y="4" width="16" height="16" rx="2" stroke="#ffffff" stroke-width="2"/>
     <rect x="8" y="8" width="8" height="8" rx="1" stroke="#ea580c" stroke-width="2"/>
   </g>
+  <rect x="156" y="204" width="52" height="52" rx="6" fill="none" stroke="#ea580c" stroke-width="1.4" filter="url(#logoGlow)"/>
 
   <text x="72" y="314" font-family="'JetBrains Mono', monospace" font-size="12" fill="#111111" letter-spacing="1.4">AGENTRA MARK • CANONICAL IDENTITY</text>
 
