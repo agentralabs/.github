@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/github-hero-pane.svg" alt="Agentra Labs hero" width="980">
+  <img src="assets/github-hero-pane-v2.svg" alt="Agentra Labs hero" width="980">
 </p>
 
 <p align="center">
