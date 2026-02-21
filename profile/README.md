@@ -21,26 +21,12 @@
 Agentra Labs builds durable, inspectable, and portable agent infrastructure.  
 We focus on systems where agents **remember**, **see**, and **understand** with continuity across sessions and environments.
 
-<p align="center">
-  <img src="assets/agentra-org-pillars.svg" alt="Agentra Labs core pillars" width="980">
-</p>
-
 ## Goals
 
 - Deliver persistent cognition through graph memory (`.amem`).
 - Deliver browserless web cartography and action surfaces (`.avis`).
 - Deliver semantic code intelligence and impact-aware automation (`.acb`).
 - Keep every sister standalone-first while enabling optional ecosystem integration.
-
-## Ecosystem
-
-<p align="center">
-  <img src="assets/agentra-org-ecosystem.svg" alt="Agentra Labs ecosystem map" width="980">
-</p>
-
-- **AgenticMemory**: persistent graph memory in portable `.amem` files.
-- **AgenticVision**: browserless web cartography, action surfaces, and visual continuity.
-- **AgenticCodebase**: semantic code intelligence in portable `.acb` files.
 
 ## Collaborate
 
