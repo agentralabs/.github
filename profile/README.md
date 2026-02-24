@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <strong>BUILDING AI AGENTS FOR TRUSTED SYSTEMS</strong><br/>
-  Open-source lab for persistent memory, web-scale vision, and semantic code intelligence.
+  <strong>Open infrastructure for reliable, long-lived AI agents.</strong><br/>
+  Agentra Labs develops open, modular infrastructure for AI agents that need continuity, control, and trust. We focus on persistent state, structured reasoning surfaces, and policy-enforced execution with audit-ready run trails.
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 ## Mission
 
-Agentra Labs builds durable, inspectable, and portable agent infrastructure.  
+Agentra Labs develops open, modular infrastructure for AI agents that need continuity, control, and trust. We focus on persistent state, structured reasoning surfaces, and policy-enforced execution with audit-ready run trails.  
 We focus on systems where agents **remember**, **see**, and **understand** with continuity across sessions and environments.
 
 <p align="center">
