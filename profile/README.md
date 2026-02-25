@@ -11,7 +11,8 @@
   <a href="https://agentralabs.tech">Website</a> ·
   <a href="https://github.com/agentralabs/agentic-memory">AgenticMemory</a> ·
   <a href="https://github.com/agentralabs/agentic-vision">AgenticVision</a> ·
-  <a href="https://github.com/agentralabs/agentic-codebase">AgenticCodebase</a>
+  <a href="https://github.com/agentralabs/agentic-codebase">AgenticCodebase</a> ·
+  <a href="https://github.com/agentralabs/agentic-identity">AgenticIdentity</a>
 </p>
 
 ---
@@ -19,7 +20,7 @@
 ## Mission
 
 Agentra Labs develops open, modular infrastructure for AI agents that need continuity, control, and trust. We focus on persistent state, structured reasoning surfaces, and policy-enforced execution with audit-ready run trails.  
-We focus on systems where agents **remember**, **see**, and **understand** with continuity across sessions and environments.
+We focus on systems where agents **remember**, **see**, **understand**, and **prove** with continuity across sessions and environments.
 
 <p align="center">
   <img src="assets/agentra-org-pillars.svg" alt="Agentra Labs core pillars" width="980">
@@ -30,6 +31,7 @@ We focus on systems where agents **remember**, **see**, and **understand** with 
 - Deliver persistent cognition through graph memory (`.amem`).
 - Deliver browserless web cartography and action surfaces (`.avis`).
 - Deliver semantic code intelligence and impact-aware automation (`.acb`).
+- Deliver cryptographic agent identity with signed receipts and scoped trust (`.aid`).
 - Keep every sister standalone-first while enabling optional ecosystem integration.
 
 ## Ecosystem
